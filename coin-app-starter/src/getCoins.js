@@ -12,7 +12,7 @@ export const getCoins = async (keyword) => {
   // }
 
   const options = {
-    headers: { "x-access-token": import.meta.env.VITE_API_KEY },
+    headers: { "x-access-token": import.meta.env.API_KEY },
   }
 
   try {
